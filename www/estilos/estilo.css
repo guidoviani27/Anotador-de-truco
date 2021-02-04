@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* -----PANTALLA 1----- */
+
+.pantalla {
+  width: 30vw;
+  margin: 10vh auto;
+  background-color: green;
+}
+
+.visible {
+  display: block;
+  visibility: visible;
+}
+
+.no-visible {
+  display: none;
+  visibility: hidden;
+}
+
+.equipos {
+  display: flex;
+  flex-direction: column;
+}
+
+.eq1 {
+  background-color: green;
+  border-color: white;
+  color: white;
+  width: 50%;
+  padding: 20px;
+  margin: 50px auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.aPuntos {
+  display: flex;
+  flex-direction: row;
+}
+
+.puntos {
+  background-color: green;
+  border-color: white;
+  color: white;
+  padding: 20px;
+  margin: 50px auto;
+  font-size: 20px;
+}
+
+.contenedorInicio {
+  text-align: right;
+}
+
+.iniciar {
+  background-color: green;
+  border-color: white;
+  color: white;
+  padding: 20px;
+  margin: 50px;
+  font-size: 20px;
+}
+
+
+/* -------PANTALLA 2------- */
+
+hr {
+  width: 80%;
+  border: solid 1px white;
+}
+
+.arriba {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nombre1 {
+  width: 30%;
+  margin: 8px auto;
+}
+
+.suma {
+  margin: 15px auto 10px;
+}
+
+.cajaFosforos {
+  display: flex;
+  flex-direction: row;
+}
+
+.fosforos {
+  text-align: center;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imag {
+  width: 50%;
+  margin: 0.5vh auto;
+}
+
+.parrafo {
+  text-align: center;
+  margin: 5px 20px;
+}
+
+.resta {
+  margin: 10px auto 15px;
+}
+
+.puntosAbajo {
+  width: 30%;
+  margin: 8px auto;
+}
+
+.final {
+  margin: 8px auto;
+}
